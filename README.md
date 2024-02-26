@@ -1,1 +1,2 @@
-# DIY_ROS2_2WD_DIFF_DRIVE_ROBOT
+# A simple 2-wheel drive differential robot conrtolled using ROS2 serial communication ( services , topics , ros2_control ) 
+## 
