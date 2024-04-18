@@ -10,7 +10,10 @@ The robot operates on a differential drive system, which consists of two indepen
 - Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
 - Encoders (optional) for providing feedback on wheel positions.
 
-## Workflow (Involving ROS 2 in Detail)
+## Workflow 
+
+![ROS2_controlled_teleoperation drawio (1)](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/0fb5b0b3-2b1a-4344-8918-5cb9a7c15457)
+
 1. **Setup and Configuration:**
    - Install ROS 2 on the Raspberry Pi.
    - Configure the Arduino for serial communication with the Raspberry Pi.
@@ -28,9 +31,6 @@ The robot operates on a differential drive system, which consists of two indepen
    - Implement Arduino code to interpret serial commands and control the motors accordingly.
    - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
      
-![ROS2_controlled_teleoperation drawio (1)](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/0fb5b0b3-2b1a-4344-8918-5cb9a7c15457)
-
-
 ## Applications
 - Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
 - Research and prototyping: Enables rapid prototyping and experimentation with robotic systems.
