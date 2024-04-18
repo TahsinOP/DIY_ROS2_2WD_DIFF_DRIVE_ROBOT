@@ -33,8 +33,12 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY scripts config description launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+	scripts/teleoperation_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 ament_package()
