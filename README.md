@@ -1,2 +1,53 @@
-# A simple 2-wheel drive differential robot conrtolled using ROS2 serial communication ( services , topics , ros2_control ) 
-## 
+# Project Statement
+The project aims to develop a two-wheeled differential drive robot controlled using ROS 2. The robot is designed to be controlled via keyboard teleoperation, where key inputs are mapped to specific robot movements. The project also explores the implementation of a PID controller for motor control, enabling smoother and more precise movement. Additionally, the project lays the foundation for future enhancements, such as integrating SLAM (Simultaneous Localization and Mapping), computer vision, and AI applications.
+
+## Introduction
+The robot operates on a differential drive system, which consists of two independently driven wheels. By controlling the speed and direction of each wheel, the robot can move in various directions, including forward, backward, left, and right. The use of ROS 2 provides a modular and scalable framework for developing and controlling robotic systems, facilitating integration with sensors, actuators, and higher-level algorithms.
+
+## Hardware
+- Two DC motors connected to an L298N motor driver for motor control.
+- Raspberry Pi 4 serving as the main computing unit.
+- Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
+- Encoders (optional) for providing feedback on wheel positions.
+
+## Workflow (Involving ROS 2 in Detail)
+1. **Setup and Configuration:**
+   - Install ROS 2 on the Raspberry Pi.
+   - Configure the Arduino for serial communication with the Raspberry Pi.
+   
+2. **Teleoperation Node:**
+   - Develop a ROS 2 node on the main PC for keyboard teleoperation.
+   - Map keyboard inputs (WASD) to robot commands (Forward, Left, Backward, Right, Stop).
+   - Publish robot commands to the `robot_commands` topic.
+   
+3. **Serial Communication Node:**
+   - Create a ROS 2 node on the Raspberry Pi to subscribe to the `robot_commands` topic.
+   - Receive robot commands and transmit them to the Arduino via serial communication.
+
+4. **Arduino Code:**
+   - Implement Arduino code to interpret serial commands and control the motors accordingly.
+   - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
+
+5. **Testing and Debugging:**
+   - Test the teleoperation and serial communication nodes for proper functionality.
+   - Debug any issues and refine the code as needed.
+
+## Applications
+- Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
+- Research and prototyping: Enables rapid prototyping and experimentation with robotic systems.
+- Hobby projects: Offers enthusiasts the opportunity to build and customize their own robot platforms for various applications.
+
+## Improvements: Adding SLAM, Computer Vision, and AI Applications
+1. **SLAM (Simultaneous Localization and Mapping):**
+   - Integrate SLAM algorithms to enable the robot to map its environment and localize itself within it.
+   - Use sensors such as LiDAR or depth cameras for environment perception.
+
+2. **Computer Vision:**
+   - Implement computer vision algorithms for object detection, tracking, and recognition.
+   - Utilize cameras mounted on the robot for visual perception tasks.
+
+3. **AI Applications:**
+   - Explore AI techniques for autonomous navigation and decision-making.
+   - Develop reinforcement learning algorithms for adaptive and self-improving robot behaviors.
+
+By incorporating these enhancements, the robot can become more autonomous and capable of performing complex tasks in dynamic environments. These improvements open up possibilities for applications in areas such as autonomous mobile robots, robotic exploration, and human-robot interaction.
