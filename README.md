@@ -32,6 +32,8 @@ The robot operates on a differential drive system, which consists of two indepen
 4. **Arduino Code:**
    - Implement Arduino code to interpret serial commands and control the motors accordingly.
    - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
+  
+## Demonstration 
      
 ## Applications
 - Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
