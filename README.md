@@ -6,6 +6,8 @@ The robot operates on a differential drive system, which consists of two indepen
 
 ## Hardware
 - Two DC motors connected to an L298N motor driver for motor control.
+- 5V Supply for Raspberry Pi and Arduino UNO
+- 7V supply for motors and L298N 
 - Raspberry Pi 4 serving as the main computing unit.
 - Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
 - Encoders (optional) for providing feedback on wheel positions.
