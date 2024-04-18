@@ -31,8 +31,13 @@ class KeyboardController(Node):
             command = 'B'
         elif self.key == 'd':
             command = 'R'
-        else:
+        else :
             command = None
+
+        if self.key == 'q':
+            command = 'S'
+            self.timer.cancel()
+            self.shut_node = True
 
         # Print the mapped command
         if command:
@@ -43,12 +48,7 @@ class KeyboardController(Node):
             msg = String()
             msg.data = command
             self.publisher.publish(msg)
-
-        # Shutdown the node if 'q' is pressed
-        if self.key == 'q':
-            self.timer.cancel()
-            self.shut_node = True
-
+            print(msg)
 
 def main(args=None):
 
