@@ -2,7 +2,9 @@
 The project aims to develop a two-wheeled differential drive robot controlled using ROS 2. The robot is designed to be controlled via keyboard teleoperation, where key inputs are mapped to specific robot movements. The project also explores the implementation of a PID controller for motor control, enabling smoother and more precise movement. Additionally, the project lays the foundation for future enhancements, such as integrating SLAM (Simultaneous Localization and Mapping), computer vision, and AI applications.
 
 ## Introduction
-The robot operates on a differential drive system, which consists of two independently driven wheels. By controlling the speed and direction of each wheel, the robot can move in various directions, including forward, backward, left, and right. The use of ROS 2 provides a modular and scalable framework for developing and controlling robotic systems, facilitating integration with sensors, actuators, and higher-level algorithms.
+The robot operates on a differential drive system, which consists of two independently driven wheels. By controlling the speed and direction of each wheel, the robot can move in various directions, including forward, backward, left, and right. The use of ROS 2 provides a modular and scalable framework for developing and controlling robotic systems, facilitating integration with sensors, actuators, and higher-level algorithms. 
+
+The project involves a simple simulation on Gazebo but the major focus is on building real-time working DIY robot using minimal hardware cost . It also emphasises the power,speed,accuracy and low-latency response of ROS2 middleware communication 
 
 ## Hardware
 - Two DC motors connected to an L298N motor driver for motor control.
