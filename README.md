@@ -27,10 +27,9 @@ The robot operates on a differential drive system, which consists of two indepen
 4. **Arduino Code:**
    - Implement Arduino code to interpret serial commands and control the motors accordingly.
    - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
+     
+![ROS2_controlled_teleoperation drawio (1)](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/0fb5b0b3-2b1a-4344-8918-5cb9a7c15457)
 
-5. **Testing and Debugging:**
-   - Test the teleoperation and serial communication nodes for proper functionality.
-   - Debug any issues and refine the code as needed.
 
 ## Applications
 - Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
