@@ -1,4 +1,4 @@
-# Project Statement
+# Project Goal
 The project aims to develop a two-wheeled differential drive robot controlled using ROS 2. The robot is designed to be controlled via keyboard teleoperation, where key inputs are mapped to specific robot movements. The project also explores the implementation of a PID controller for motor control, enabling smoother and more precise movement. Additionally, the project lays the foundation for future enhancements, such as integrating SLAM (Simultaneous Localization and Mapping), computer vision, and AI applications.
 
 ## Introduction
