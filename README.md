@@ -5,7 +5,7 @@ The project aims to develop a two-wheeled differential drive robot controlled us
 
 ![ROS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/50px-Ros_logo.svg.png) 
 ![Arduino Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/50px-Arduino_Logo.svg.png) 
-![Raspberry Pi Logo](https://www.raspberrypi.org/app/uploads/2021/05/Raspberry-Pi-Logo-Reg-Logo-1.png)
+![Raspberry Pi Logo](https://www.pngwing.com/en/search?q=raspberry+Pi)
 
 
 # Introduction
