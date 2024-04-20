@@ -26,8 +26,9 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 ![ROS2_controlled_teleoperation drawio (1)](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/0fb5b0b3-2b1a-4344-8918-5cb9a7c15457)
 
 1. **Setup and Configuration:**
-   - Install ROS 2 on the Raspberry Pi.
-   - Configure the Arduino for serial communication with the Raspberry Pi.
+   - ROS 2 running on both host-machine and the Raspberry Pi on a network.
+   - Pi accesed remotely using `ssh pi@ip_adress`
+   - Configured the Arduino for serial communication (UART) with the Raspberry Pi.
    
 2. **Teleoperation Node:**
    - Develop a ROS 2 node on the main PC for keyboard teleoperation.
