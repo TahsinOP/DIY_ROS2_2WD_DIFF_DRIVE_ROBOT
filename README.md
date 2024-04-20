@@ -1,8 +1,5 @@
 # Project Goal
-The project aims to develop a two-wheeled differential drive robot controlled using ROS 2. The robot is designed to be controlled via keyboard teleoperation, where key inputs are mapped to specific robot movements. The project also explores the implementation of a PID controller for motor control, enabling smoother and more precise movement. Additionally, the project lays the foundation for future enhancements, such as integrating SLAM (Simultaneous Localization and Mapping), computer vision, and AI applications.
-
-![photo_2024-04-20_12-47-36](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/2277b17b-51e7-49d3-bb7e-872446deea83)
-
+The project aims to develop a two-wheeled differential drive robot controlled using ROS 2. The robot is designed to be controlled via keyboard teleoperation, where key inputs are mapped to specific robot movements. The project also explores the implementation of a PID controller for motor control, enabling smoother and more precise movement. Additionally, the project lays the foundation for future enhancements, such as integrating SLAM (Simultaneous Localization and Mapping), computer vision, and AI applications
 
 # Tech Stack 
 
@@ -20,6 +17,9 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 - Raspberry Pi 4 serving as the main computing unit.
 - Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
 - Encoders (optional) for providing feedback on wheel positions.
+
+ ![photo_2024-04-20_12-47-36](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/2277b17b-51e7-49d3-bb7e-872446deea83)
+
 
 # Workflow 
 
