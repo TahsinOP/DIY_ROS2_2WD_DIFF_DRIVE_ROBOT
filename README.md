@@ -5,7 +5,7 @@ The project aims to develop a two-wheeled differential drive robot controlled us
 
 ![ROS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/50px-Ros_logo.svg.png) 
 ![Arduino Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/50px-Arduino_Logo.svg.png) 
-![raspberry-pi-icon-2048x2048-p0y4r07x](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/2169cbc1-769e-4ed4-84b3-0f7038a9d963)
+
 
 
 # Introduction
