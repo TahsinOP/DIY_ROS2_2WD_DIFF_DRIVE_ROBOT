@@ -6,8 +6,6 @@ The project aims to develop a two-wheeled differential drive robot controlled us
 ![ROS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/50px-Ros_logo.svg.png) 
 ![Arduino Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/50px-Arduino_Logo.svg.png) 
 
-
-
 # Introduction
 The robot operates on a differential drive system, which consists of two independently driven wheels. By controlling the speed and direction of each wheel, the robot can move in various directions, including forward, backward, left, and right. The use of ROS 2 provides a modular and scalable framework for developing and controlling robotic systems, facilitating integration with sensors, actuators, and higher-level algorithms. 
 
@@ -27,11 +25,11 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 
 1. **Setup and Configuration:**
    - ROS 2 running on both host-machine and the Raspberry Pi on a network.
-   - Pi accesed remotely using `ssh pi@ip_adress`
+   - Pi accesed remotely using `ssh pi@ip_address`
    - Configured the Arduino for serial communication (UART) with the Raspberry Pi.
    
 2. **Teleoperation Node:**
-   - Develop a ROS 2 node on the main PC for keyboard teleoperation.
+   - Develop a ROS 2 node on the host-PC for keyboard teleoperation.
    - Map keyboard inputs (WASD) to robot commands (Forward, Left, Backward, Right, Stop).
    - Publish robot commands to the `robot_commands` topic.
    
