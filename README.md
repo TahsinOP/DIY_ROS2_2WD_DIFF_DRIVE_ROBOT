@@ -3,7 +3,8 @@ The project aims to develop a two-wheeled differential drive robot controlled us
 
 # Tech Stack 
 
-![ROS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/50px-Ros_logo.svg.png) ![Arduino Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/50px-Arduino_Logo.svg.png) ![Raspberry Pi Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Raspberry_Pi_Logo.svg/50px-Raspberry_Pi_Logo.svg.png)
+![ROS Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/50px-Ros_logo.svg.png) 
+![Arduino Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/50px-Arduino_Logo.svg.png) 
 
 
 # Introduction
