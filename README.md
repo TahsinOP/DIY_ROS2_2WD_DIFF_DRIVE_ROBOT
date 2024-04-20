@@ -6,7 +6,7 @@ The robot operates on a differential drive system, which consists of two indepen
 
 The project involves a simple simulation on Gazebo but the major focus is on building real-time working DIY robot using minimal hardware cost. It also emphasises the power,speed,accuracy and low-latency response of ROS2 middleware communication 
 
-## Hardware
+# Hardware
 - Two DC motors connected to an L298N motor driver for motor control.
 - 12V Supply (Power Bank)
 - 7V supply for motors and L298N 
@@ -14,7 +14,7 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 - Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
 - Encoders (optional) for providing feedback on wheel positions.
 
-## Workflow 
+# Workflow 
 
 ![ROS2_controlled_teleoperation drawio (1)](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/0fb5b0b3-2b1a-4344-8918-5cb9a7c15457)
 
@@ -35,14 +35,15 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
    - Implement Arduino code to interpret serial commands and control the motors accordingly.
    - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
   
-## Demonstration 
+# Demonstration 
+## 
      
-## Applications
+# Applications
 - Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
 - Research and prototyping: Enables rapid prototyping and experimentation with robotic systems.
 - Hobby projects: Offers enthusiasts the opportunity to build and customize their own robot platforms for various applications.
 
-## Improvements: Adding SLAM, Computer Vision, and AI Applications
+# Improvements: Adding SLAM, Computer Vision, and AI Applications
 1. **SLAM (Simultaneous Localization and Mapping):**
    - Integrate SLAM algorithms to enable the robot to map its environment and localize itself within it.
    - Use sensors such as LiDAR or depth cameras for environment perception.
