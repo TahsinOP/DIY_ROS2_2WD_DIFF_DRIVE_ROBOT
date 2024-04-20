@@ -41,7 +41,8 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
    - Optionally, integrate a PID controller for smoother motor control using encoder feedback (if available).
   
 # Demonstration 
-## 
+## Robot Navigation 
+
      
 # Applications
 - Educational purposes: Provides a hands-on learning experience for understanding robotics, ROS 2, and PID control.
