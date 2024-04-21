@@ -11,6 +11,7 @@ The robot operates on a differential drive system, which consists of two indepen
 The project involves a simple simulation on Gazebo but the major focus is on building real-time working DIY robot using minimal hardware cost. It also emphasises the power,speed,accuracy and low-latency response of ROS2 middleware communication interfaced with Arduino through serial communication seamlessly .
 
 # Hardware
+## Prototype - 1 
 - Two DC motors connected to an L298N motor driver for motor control.
 - 12V Supply (Power Bank)
 - 7V supply for motors and L298N 
