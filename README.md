@@ -13,6 +13,8 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 # Hardware
 ## Prototype - 1 
 - Two DC motors connected to an L298N motor driver for motor control.
+- Castor wheel (1) + Rubber Wheels (2)
+- 3-D Printed Acrylic Body 
 - 12V Supply (Power Bank)
 - 7V supply for motors and L298N 
 - Raspberry Pi 4 serving as the main computing unit.
