@@ -17,11 +17,19 @@ The project involves a simple simulation on Gazebo but the major focus is on bui
 - 3-D Printed Acrylic Body 
 - 12V Supply (Power Bank)
 - 7V supply for motors and L298N 
-- Raspberry Pi 4 serving as the main computing unit.
+- 12V Supply (Power Bank)
 - Arduino board for interfacing with the motor driver and serial communication with the Raspberry Pi.
 - Encoders (optional) for providing feedback on wheel positions.
 
  ![photo_2024-04-20_12-47-36](https://github.com/TahsinOP/ROS2_2WD_DIFF_DRIVE_ROBOT/assets/117567813/2277b17b-51e7-49d3-bb7e-872446deea83)
+
+## Prototype - 2 ( Better Performance ) 
+- Two DC motors connected to arduino motor shield
+- Castor wheel (1) + Rubber Wheels (2)
+- 3-D Printed Acrylic Body
+- 12V Main power Supply (Power Bank)
+- Arduino Uno , Raspberry Pi 4
+  
 
 
 # Workflow 
